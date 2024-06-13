@@ -1,0 +1,77 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(211, 224, 208);
+}
+
+.producto-card {
+    border: 1px solid #000000;
+    padding: 0;
+    margin:18px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #012520;
+    display: inline-block;
+    min-width: 200px;
+    
+}
+
+header{
+    background: rgb(26, 57, 56);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    justify-content: space-between;
+}
+header, h1 {
+    font-size: 35pt;
+    font-family: monospace;
+    color:rgb(237, 253, 231);
+}
+
+header, h2 {
+    font-size: 25pt;
+    font-family: monospace;
+    color:rgb(237, 253, 231);
+}
+
+.caja-contenedora{
+    background-color: rgba(255, 0, 0, 0);
+    margin: auto;
+    margin-top: 40px;
+    width:1000px;
+    padding: 20px
+
+}
+
+.imgs{
+    width: 200px;
+    border-radius: 8px;
+}
+
+.NomProduc{
+font-size: 20PT;
+margin: 0;
+margin-top: 5PX;
+text-align: center;
+}
+
+.precio{
+font-size: 15pt;
+padding-left: 15px;
+margin: 30px 0 10px 0;
+color: aliceblue;
+}
+
+.linea{
+    background-color: chocolate;
+    height: 3px;
+    width: 80%;
+    margin: auto;
+}
