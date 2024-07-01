@@ -14,4 +14,4 @@ function login(){
     }
 }
 const reciboUsuario = localStorage.getItem('usuario');
-document.getElementById('bienvenidos').textContent = `bienvenido ${reciboUsuario}`;
+document.getElementById('nombre').textContent = `bienvenido ${reciboUsuario}`;
