@@ -7,7 +7,7 @@ function login(){
 
         localStorage.setItem('usuario',USUARIO);
         localStorage.setItem('contraseña',CONTRASEÑA);
-        window.location.href = './pages/Productos.html';
+        window.location.href = 'danig1menez.github.io/JS-CODER/actividad-3/pages/Productos.html';
 
     }else{
         alert('ingrese nombre y apellido')
