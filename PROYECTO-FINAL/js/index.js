@@ -10,7 +10,13 @@ function login(){
         window.location.href = './pages/productos.html';
 
     }else{
-        alert('ingrese nombre y apellido')
+        Swal.fire({
+            title: "Datos no validos",
+            text: "has ingresados datos incorrectos",
+            icon: "warning",
+            confirmButtonText: "Aceptar",
+        });
+        // alert('ingrese nombre y apellido')
     }
 }
 const reciboUsuario = localStorage.getItem('usuario');

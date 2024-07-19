@@ -47,7 +47,16 @@ const añadirProduc = async (searchQuery = 'supermercado') => {
 
 const busqueda = () => {
     const query = DOMbuscadorProduc.value.trim();
-    añadirProduc(query);
+    if (query) {
+        añadirProduc(query);
+    } else {
+        Swal.fire({
+            title: "Buscador vacio",
+            text: "No has colocado nada en el buscador",
+            icon: "warning",
+            confirmButtonText: "Aceptar",
+        });
+    }
 };
 
 
