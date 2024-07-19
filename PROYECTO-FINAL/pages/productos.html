@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Mercado</title>
+    <!-- sweetalert css-->
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.12.2/dist/sweetalert2.min.css" rel="stylesheet">
+    <!-- Toastify -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!-- google icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- CSS de productos -->
+    <link rel="stylesheet" href="../css/productos.css">
+</head>
+<body id="body">
+    <header>
+        <h1 id="titulo">SUPER MERCADO</h1>
+        <h2 id="nombre">bienvenido</h2>
+    </header>
+
+    <div class="contenedor">
+        <div class="contenedorBuscador">
+            <input type="text" id="buscadorProduc" placeholder="Buscar productos...">
+            <button id="botonbuscador"><span class="material-symbols-outlined">
+                search
+                </span></button>
+        </div>
+        <div class="row">
+            <div id="items" class="items"></div>
+            <div class="contenedorCarrito">
+                <h2>carrito de compras</h2>
+                <ul id="carrito"></ul>
+                <div class="contenedorTotalVaciar">
+                    <p class="textoderecha"> TOTAL: <span id="total"></span></p>    
+                    <button id="botonVaciar"> <span class="tacho material-symbols-outlined">
+                        delete
+                        </span> </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- sweetalert js-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.12.2/dist/sweetalert2.all.min.js"></script> 
+    <!-- Toastify -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!-- JS de productos -->
+    <script src="../js/productos.js"></script>
+    <!-- JS principal -->
+    <script src="../js/index.js"></script>
+</body>
+</html>

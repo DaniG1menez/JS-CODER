@@ -1,0 +1,68 @@
+
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(134, 149, 126);
+}
+.contenedorSesion{
+    background-color: rgba(255, 255, 255, 0.998);
+    width: 500px;
+    height: auto;
+    margin: auto;
+    margin-top: 13%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 35px 50px 50px 50px;
+}
+
+h1{
+    margin-bottom: 20px;
+    text-align: center;   
+    color: rgb(44, 84, 41);
+    font-weight: bold;
+    font-size: 30pt;
+}
+
+#formularioLogin{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    /* background-color: rgba(255, 0, 0, 0.853); */
+    justify-content: space-between;
+}
+
+input{
+    all: unset;
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: 4px rgb(44, 84, 41) solid;
+    
+}
+
+input::placeholder{
+    color: rgb(149, 149, 149);
+
+}
+
+.BOTON{
+    height:50PX;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(44, 84, 41);
+    border: none;
+    transition: 0.3s;
+
+}
+
+.BOTON:hover{
+    background-color: rgb(67, 87, 66);
+    
+    transform: scale(1.03);
+}

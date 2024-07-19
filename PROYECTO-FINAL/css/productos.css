@@ -1,0 +1,240 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: rgb(211, 224, 208);
+    height: auto;
+}
+
+
+
+header{
+    background: rgb(26, 57, 56);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    justify-content: space-between;
+}
+header, h1 {
+    font-size: 35pt;
+    font-family: monospace;
+    color:rgb(237, 253, 231);
+}
+
+header, h2 {
+    font-size: 25pt;
+    font-family: monospace;
+    color:rgb(237, 253, 231);
+}
+
+
+
+.items {
+    /* background-color: rgb(255, 0, 0); */
+    margin: auto;
+    margin: 40px auto 100px auto;
+    width:1010px; 
+    /* padding: 20px; */
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; /
+}
+.card-pro{
+    padding: 0;
+    margin:18px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #012520f6;
+    /* display: flex; */
+    width: 200px;
+    height: 350px;
+    position: relative;
+}
+.card-img{
+    width: 200px;
+    border-radius: 8px;
+}
+
+.card-title{
+    font-size: 8PT;
+    margin: 0;
+    margin-top: 5PX;
+    text-align: left;
+    padding:10px 0 0 20px;
+    color: aliceblue;
+}
+
+.card-text{
+    font-size: 12pt;
+    padding-left: 15px;
+    margin: 5px 0 10px 20px;
+    color: aliceblue;
+    position: absolute;
+    bottom: 0px;
+    left: -15px;
+}
+.btn-primary{
+    border: none;
+    position: absolute;
+    right:0;
+    bottom: 0px;
+    height: 50px;
+    width: 50px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 8px;
+    background-color: aliceblue;
+    font-size: 13PT;
+}
+.carrito{
+    position: absolute;
+    top: 14px;
+    left: 14px;
+}
+
+.btn-primary:hover{
+    transition: 0.3s;
+    background-color: rgb(48, 127, 74);
+    font-size: 13PT;
+    color: aliceblue;
+}
+
+
+/* search */
+.contenedorBuscador{
+    position: relative;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    margin-top: 60px;
+}
+
+#buscadorProduc{
+    background-color: transparent ;
+    border: none;
+    border-bottom: 1px solid rgb(26, 57, 56);
+    width: 400px;
+    height: 25px;
+    padding: 20px;
+    margin: 0 20px;
+    font-size: 20pt;
+}
+
+#botonbuscador{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: rgb(26, 57, 56);
+    color: aliceblue;
+    right: 0;
+    transition: 0.3s;
+}
+
+#botonbuscador:hover{
+    transform: scale(1.1);
+    background: rgba(26, 57, 56, 0.675);
+}
+
+/* search  */
+
+/* carrito de compras */
+
+.contenedorCarrito{
+    margin-top: 100px;
+    background-color:  rgb(26, 57, 56);
+    width:80%;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    
+}
+
+.contenedorCarrito h2 {
+    text-align: center;
+    font-size: 30pt;
+    padding:  10px 0;
+    color: aliceblue;
+    margin: 10px 0;
+}
+
+#carrito{
+    background-color: aliceblue;
+    background-image: url('../img/carrito.png');
+    background-repeat: no-repeat;
+    background-position: 100px;
+    background-size: 350px;
+    background-position-x: 80%;
+    padding-left: 40px;
+    width: 93.5%;
+    border-radius: 10px;
+    margin: auto;
+}
+
+
+#carrito li{
+    padding: 10px 40px;
+}
+
+.textoderecha{
+    height: 100%;
+    width: 250px;
+}
+
+.contenedorTotalVaciar{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 70px;
+    align-items: center;
+    
+}
+
+.textoderecha{
+    font-size: 18pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height: auto;
+    width: auto;
+    border-bottom: 2px solid black;
+    color: aliceblue;
+}
+
+.tacho{
+    font-size: 30pt;
+}
+
+#botonVaciar{
+    width: 70px;
+    height: 50px;
+    font-size: 17pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(255, 154, 154);
+    border: none;
+    transition: 0.3s;
+    
+}
+
+#botonVaciar:hover{
+    background-color: rgb(209, 19, 19);
+    transform: scale(1.15);
+    color: aliceblue;
+}
+
+
+/* carrito de compras */
